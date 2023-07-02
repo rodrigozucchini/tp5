@@ -2,7 +2,6 @@
 también muestre el valor más pequeño ingresado y el valor más grande ingresado. */
 
 #include <stdio.h>
-#include <limits.h>
 
 int main(int argc, char const *argv[])
 {
@@ -29,9 +28,6 @@ int main(int argc, char const *argv[])
             numeroMenor = numero;
             numeroMayor = numero;
 
-            if(numero = 0) {
-                numeroMenor;
-            }
         } else {
             if ( numero < numeroMenor ) numeroMenor = numero; 
             if ( numero > numeroMayor ) numeroMayor = numero; 
